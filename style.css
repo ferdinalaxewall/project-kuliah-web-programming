@@ -1,0 +1,180 @@
+/* Rifky Maulana */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-logo{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.navbar-logo span {
+    color: #29cf13;
+}
+
+nav a {
+    color: #010101;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section#detail-room-section {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: #29cf13;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer.footer {
+    background-color: #fff;
+    color: #010101;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+footer.footer a {
+    color: #010101;
+    text-decoration: none;
+    
+}
+
+footer.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer.footer ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+.footer-logo {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 20px;
+    
+}
+
+.footer-logo span {
+    color: #29cf13;
+}
+
+.copyright {
+    background-color: #fff;
+    color: #010101;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Muhamad Ferdinal */
+
+.home-body, .category-body{
+    text-align: center;
+    padding: 20px;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin: 15px;
+}
+
+.card-top-wrapper{
+    padding-bottom: 10px;
+}
+
+.other-room-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-room-card{
+    width: 40%;
+    margin: 15px;
+}
+
+.service-box h5{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
